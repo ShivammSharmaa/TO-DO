@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-image: url("images/bg-desktop-dark.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(235, 21%, 11%);
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7%;
+  margin-left: 32%;
+  margin-right: 32%;
+  list-style: none;
+  font-size: xx-large;
+  font-weight: 700;
+}
+.inputBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9vh;
+}
+input {
+  width: 36%;
+  background-color: hsl(235, 24%, 19%);
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: large;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  width: 5%;
+  background-color: hsl(235, 24%, 19%);
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: large;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.taskList {
+  list-style: none;
+  width: 36%;
+  margin-top: 10vh;
+}
+.list {
+  background-color: hsl(235, 24%, 19%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+  display: flex;
+  padding: 15px;
+  margin: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listText {
+  padding: 25px;
+}
+.circle {
+  height: 25px;
+  width: 25px;
+  border: plum solid 2px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+.circle:hover {
+  background-color: pink;
+}
+.cross {
+  color: pink;
+  cursor: pointer;
+}
+#check {
+  margin: 2px;
+}
+.MSG {
+  text-align: center;
+  margin-top: 10vh;
+}
+.checked {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.infoBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info {
+  width: 34%;
+  background-color: hsl(235, 24%, 19%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: small;
+  display: flex;
+  padding: 15px;
+  margin: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerUl {
+  display: flex;
+  list-style: none;
+}
+.footerLi {
+  padding: 0px 6px;
+  cursor: pointer;
+}
+
+.clear {
+  cursor: pointer;
+}
